@@ -1,4 +1,4 @@
-# Laravel SiteConfig
+# Laravel multi-site config
 
 Multi-site config with single codebase.
 
@@ -28,4 +28,7 @@ echo site_config('design.images'); // round
 // with SITE=new-blog in .env
 echo site_config('design.menu'); // horizontal
 echo site_config('design.images'); // square
+
+// override config for unit tests
+site_config(['design.menu' => 'default']);
 ```
