@@ -31,4 +31,7 @@ echo site_config('design.images'); // square
 
 // override config for unit tests
 site_config(['design.menu' => 'default']);
+
+// Using facade alias
+SiteConfig::get('design.images');
 ```

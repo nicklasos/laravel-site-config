@@ -24,7 +24,10 @@
         "laravel": {
             "providers": [
                 "LaravelUtils\\SiteConfig"
-            ]
+            ],
+            "aliases": {
+                "SiteConfig": "LaravelUtils\\Facade"
+            }
         }
     }
 }
