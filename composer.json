@@ -1,0 +1,30 @@
+{
+    "name": "laravel-utils/site-config",
+    "description": "Site config for laravel",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Nicklasos",
+            "email": "nicklasos@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "laravel/framework": "5.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaravelUtils\\SiteConfig\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelUtils\\SiteConfig"
+            ]
+        }
+    }
+}
